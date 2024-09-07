@@ -1,3 +1,3 @@
 # WEB DEVELOPMENT - SOME PROJECTS
 
-This repository will have project involving HTML, CSS and JS.
+This repository will have projects involving HTML, CSS and JS.
