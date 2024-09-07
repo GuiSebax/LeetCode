@@ -1,2 +1,3 @@
-# LeetCode
-This repository will have LeetCode code resolution, all algorithms will be solved in Python, or Typescript or Ruby
+# WEB DEVELOPMENT - SOME PROJECTS
+
+This repository will have project involving HTML, CSS and JS.

@@ -1,0 +1,76 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Adicionar espaço entre os elementos */
+    align-items: center;
+    height: 100vh;
+    width: 100%; /* Definir uma largura fixa para evitar compressão excessiva */
+    background-color: antiquewhite;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Garantir que o padding seja considerado no cálculo da largura */
+}
+
+.container {
+    background-color: burlywood;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.9);
+    width: 300px; /* Definir uma largura fixa para evitar compressão excessiva */
+   
+}
+
+.tela {
+    border-bottom: 3px solid black;
+    width: 100%; /* Ocupa toda a largura disponível */
+    display: block; /* Certifique-se de que a tela ocupe a largura total */
+    padding: 10px 0; /* Adicionar padding vertical para espaçamento */
+    box-sizing: border-box; /* Garantir que o padding seja considerado no cálculo da largura */
+}
+
+.tela > section {
+    text-align: right ;
+    padding-right: 10px; /* Adiciona espaço entre o texto e a borda direita */
+    font-size: 24px; /* Ajusta o tamanho do texto */
+    font-weight: bold;
+}
+
+
+.botoes {
+    display: flex;
+    flex-wrap: wrap; /* Garantir que os botões se organizem corretamente */
+    justify-content: space-between; /* Adiciona espaçamento entre os botões */
+    margin-top: 10px;
+}
+
+.botoes-linha {
+    display: flex;
+    width: 100%; /* Garantir que cada linha de botões ocupe a largura total */
+    justify-content: space-between;
+}
+
+button {
+    width: 23%; /* Ajuste para distribuir os botões igualmente */
+    padding: 15px;
+    margin: 5px 0;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    background-color: #474545;  
+    cursor: pointer;
+    color: white;   
+    font-weight: bold;
+    transition: transform 0.3s ease-in-out, box-shadow 0.2s ease-in-out; /* Adicionar transição suave para transformação e sombra */
+}
+
+button:hover {
+    transform: scale(1.1); /* Aumenta levemente o tamanho do botão */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra leve */
+    background-color: azure;
+    color: black;
+}
+
+button:active {
+    transform: scale(1.05); /* Simula o efeito de clique, encolhendo um pouco */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); /* Diminui a sombra para simular a pressão do clique */
+}
